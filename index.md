@@ -1,37 +1,327 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
 
-You can use the [editor on GitHub](https://github.com/Shubh2003/GoogleCode-HTML/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<html lang="en" >
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<head>
 
-### Markdown
+  <meta charset="UTF-8">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  <meta name="i love Redsox" content="site on HTML and CSS">
 
-```markdown
-Syntax highlighted code block
+  <meta name="shubh" content="shubh">
 
-# Header 1
-## Header 2
-### Header 3
+ 
 
-- Bulleted
-- List
+  <title>I love Redsox!</title>
 
-1. Numbered
-2. List
+  <link rel="icon"
 
-**Bold** and _Italic_ and `Code` text
+      type="image/png"
 
-[Link](url) and ![Image](src)
-```
+      href="https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/RedSoxPrimary_HangingSocks.svg/1200px-RedSoxPrimary_HangingSocks.svg.png">
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+ 
 
-### Jekyll Themes
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Shubh2003/GoogleCode-HTML/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+ 
 
-### Support or Contact
+</head>
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<body>
+
+        <style>
+
+ 
+
+                body {
+
+                    margin-top: 150px;
+
+                    font-family: 'Lato', sans-serif;
+
+                }
+
+                input {
+
+                    width: 200px;
+
+                    border-radius: 5px;
+
+                    text-align: center;
+
+                    border: 1px solid #212121;
+
+                    height: 40px;
+
+                }
+
+                table {
+
+                    margin-top: 30px;
+
+                }
+
+                tr:nth-of-type(even) {
+
+                    background: #ffd98b;
+
+                }
+
+                thead {
+
+                    background: #fbb016;
+
+                }
+
+ 
+
+                ul {
+
+                        list-style-type: none;
+
+                        margin: 0;
+
+                        padding: 0;
+
+                        overflow: hidden;
+
+                        background-color: #333333;
+
+                        }
+
+ 
+
+                        li {
+
+                        float: left;
+
+                        }
+
+ 
+
+                        li a {
+
+                        display: block;
+
+                        color: white;
+
+                        text-align: center;
+
+                        padding: 16px;
+
+                        text-decoration: none;
+
+                        }
+
+ 
+
+                        li a:hover {
+
+                        background-color: #111111;
+
+                    }
+
+ 
+
+         </style>           
+
+ 
+
+  <section class="container">
+
+ 
+
+        <table class="table-info table">
+
+               
+
+                <tr>
+
+                <th><img src="https://media.graytvinc.com/images/810*607/Boston+Red+Sox+World+Series+Champs+2018.jpg" alt="" style="width:128px;height:128px;">
+
+                </th>
+
+                <th>
+
+                <p style="color:red;font-size:56px;"> I love Boston Redsox! </p>
+
+                </th>
+
+                </tr>
+
+        </tr><table>
+
+ 
+
+   <!-- <input type="search" class="light-table-filter" data-table="table-info" placeholder="Filter/Search"> -->
+
+   
+
+    <ul>
+
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="https://www.mlb.com/redsox" target="_blank">RedSox Home</a></li>
+
+            <li><a href="https://www.mlb.com/redsox/tickets"target="_blank"> Buy Tickets</a></li>
+
+            <li><a href="https://www.mlb.com/redsox/ballpark" target="_blank">Fenway Park</a></li>
+
+          </ul>
+
+  <table class="table-info table">
+
+        <thead>
+
+        <tr>
+
+        <th>Team</th>
+
+        <th>Email</th>
+
+        <th>Phone No</th>
+
+        <th>#Jercy</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+
+        <td>John Doe</td>
+
+        <td>john.doe@gmail.com</td>
+
+        <td>0123456789</td>
+
+        <td>01</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Alen Fox</td>
+
+        <td>Alen.fox@gmail.com</td>
+
+        <td>0155456789</td>
+
+        <td>02</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Rakesh Sharma</td>
+
+        <td>rakesh.sharma@gmail.com</td>
+
+        <td>6754328901</td>
+
+        <td>03</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Bunty Singh</td>
+
+        <td>Bunty.singh@gmail.com</td>
+
+        <td>5678241598</td>
+
+        <td>04</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Sushant Rajput</td>
+
+        <td>sushant.rajput@gmail.com</td>
+
+        <td>675457801</td>
+
+        <td>05</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Sunny Sharma</td>
+
+        <td>sunnysharma@gmail.com</td>
+
+        <td>675123451</td>
+
+        <td>06</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Saurav Gupta</td>
+
+        <td>saurav.gupta@gmail.com</td>
+
+        <td>61234801</td>
+
+        <td>07</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Appu Khote</td>
+
+        <td>appu.khote@gmail.com</td>
+
+        <td>67894561</td>
+
+        <td>08</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Sandeep Arya</td>
+
+        <td>sandeep.arya@gmail.com</td>
+
+        <td>741852963</td>
+
+        <td>09</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Vijay Mehra</td>
+
+        <td>vijay.mehra@gmail.com</td>
+
+        <td>456851982</td>
+
+        <td>10</td>
+
+        </tr>
+
+        </tbody>
+
+    </table>
+
+
+</section>
+
+
+   
+
+ 
+
+</body>
+
+</html>
